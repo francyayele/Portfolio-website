@@ -34,11 +34,13 @@ background: var(--bg-color);
 padding: 24px 14%;
 transition: 0.3s;
 padding: 20px 14%;
+	 justify-content:flex-end;
  }
 .logo{
     color:var(--text-color);
     font-size: 1.8rem;
     font-weight: 600;
+	margin-left:auto;
     
 }
 span{
