@@ -750,6 +750,7 @@ form .send-btn:hover{
 	.about{
 		grid-template-columns: 2fr;
                 text-align: center;
+           margin-bottom:20px;
 	}
     	.about-img img{
 		width: 50%;
@@ -827,7 +828,12 @@ form .send-btn:hover{
        }
       
      .skillcontainer .wrapper{
-    max-width: 100%;
+    width: 900px;
+  }
+    
+       
+     .skills-content p{
+        width: 450px;
   }
   .skillcontainer  .wrapper .card{
     width: calc(50% - 20px);
@@ -838,6 +844,26 @@ form .send-btn:hover{
         padding-top:100px;
         max-width: 100%;
 }
+    .about{
+		grid-template-columns: 2fr;
+                text-align: center;
+           margin-bottom:200px;
+	}
+    	.about-img img{
+		width: 50%;
+		height: auto;
+		max-width: 100%;
+	}
+	
+    .about-text p{
+		font-size: 0.8rem;
+        padding:2px;
+	}
+
+	.counter{
+		align-items:center;
+	}
+
      
 }
 
@@ -848,16 +874,6 @@ form .send-btn:hover{
   }
   .nav-btn {
     display: none;
-  }
-}
-@media(max-width: 753px){
- 
-@media(max-width: 505px){
-  .skillcontainer .wrapper{
-    max-width: 500px;
-  }
-  .skillcontainer .wrapper .card{
-    width: 100%;
   }
 }
 
