@@ -809,7 +809,7 @@ form .send-btn:hover{
 		
 	}
 }
-@media (max-width: 795px){
+@media screen and (max-device-width: 640px) {
     .home{
      grid-template-columns: 1fr;
      grid-gap: 2rem;
@@ -886,7 +886,7 @@ form .send-btn:hover{
      
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .slide p {
     padding: 0 30px;
       font-size:0.8rem;
