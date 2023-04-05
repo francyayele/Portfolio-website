@@ -921,8 +921,8 @@ form .send-btn:hover{
     margin-top: 4.2rem;
 }
     
-.nav-btn {
-  max-width: 100%;
+    .nav-btn {
+          max-width: 100%;
   height: 30px;
   width: 30px;
   border-radius: 50%;
