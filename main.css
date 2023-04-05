@@ -809,12 +809,7 @@ form .send-btn:hover{
 		
 	}
 }
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) 
-  and (orientation: portrait) {
-
+@media screen and (max-width: 576px) {
 
     .home{
      grid-template-columns: 1fr;
