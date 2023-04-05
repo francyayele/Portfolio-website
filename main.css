@@ -809,7 +809,7 @@ form .send-btn:hover{
 		
 	}
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 760px) {
 
     .home{
      grid-template-columns: 1fr;
