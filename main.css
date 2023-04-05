@@ -9,6 +9,7 @@
     scroll-padding-top: 2rem;
 }
 
+
 :root{
     --bg-color:#252954;
     --main-color:#4757c8;
@@ -809,8 +810,7 @@ form .send-btn:hover{
 		
 	}
 }
-@media screen and (max-width: 760px) {
-
+@media (max-width: 795px){
     .home{
      grid-template-columns: 1fr;
      grid-gap: 2rem;
@@ -933,5 +933,4 @@ form .send-btn:hover{
 }
     
 }
-
 
