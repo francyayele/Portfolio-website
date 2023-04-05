@@ -934,11 +934,4 @@ form .send-btn:hover{
     
 }
 
-#preloader{
-     background:#000 url(loader.gif) no-repeat center center;
-    background-size:15%;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    z-index: 100;
-}
+
