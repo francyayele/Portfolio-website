@@ -15,7 +15,7 @@
 
 </head>
 <body>
-
+ <div id="preloader"></div>
     
     <header>
         <a href="#" class="logo">Fransi<span>Ayele</span></a>
@@ -38,7 +38,7 @@
     <section class="home" id="home">
         
           <div class="home-img">
-          <img src="home-img.png">
+          <img src="images/home-img.png">
 
       </div>
        <div class="social-icons">
@@ -56,7 +56,7 @@
           <h6>I am a computer engineering<span> student </span></h6>
           <p>who is passionate about programming, software development, and solving complex problems. My website is dedicated to showcasing my skills and services, as well as providing valuable information about the computer engineering industry. .</p>
       
-          <a href="Fransi CV.pdf" class="btn"> Download CV </a>
+          <a href="images/Fransi CV.pdf" class="btn"> Download CV </a>
 
       </div>
     
@@ -65,7 +65,7 @@
  
  <section class="about" id="about">
       <div class="about-img">
-        <img src="about-img.png" alt="">
+        <img src="images/about-img.png" alt="">
     </div>
    
     <div class="about-text">
@@ -74,6 +74,7 @@
         <p>I am a computer engineering student with a strong foundation in programming, algorithms, and software design. I am dedicated to continuously learning new skills and techniques to help me stay ahead of the curve in this rapidly evolving industry. My passion for computer engineering drives me to solve complex problems and develop innovative solutions.</p> 
        
         
+     <div class="counter-box">
      <div class="counter-container">
       <div class="counter" data-count="20"></div>
       <span>Personal Project</span>
@@ -85,7 +86,7 @@
         </div>
 
 
-   
+    </div>
     
  </section>
      <section id="skills"> 
@@ -170,10 +171,7 @@
         
         </div>
         </div>
-         
-         
-     
-                         
+                  
      </section>                    
  <section class="projects" id="projects">
     <div class="center">
@@ -186,7 +184,7 @@
 Generated from: https://SmolCSS.dev/#smol-card-component -->
 <ul data-component class="smol-css-grid" style="--min: 22ch; --gap: 2rem;">
   <li data-component class="smol-card-component">
-   <img src="PDD.png">
+   <img src="images/PDD.png">
     <h3>Plant Disease Detection Website</h3>
     <p> I have created a website using CNN to detect crop diseases from plant leaf images, with 94% accuracy</p>
     
@@ -194,7 +192,7 @@ Generated from: https://SmolCSS.dev/#smol-card-component -->
   </li>
     
      <li data-component class="smol-card-component">
-     <img src="suit design.png">
+     <img src="images/suit design.png">
     <h3>SUit-Shopping website</h3>
     <p>This website offers a variety of high-quality suits for both men and women, with a user-friendly shopping experience. </p>
 
@@ -224,7 +222,7 @@ Generated from: https://SmolCSS.dev/#smol-card-component -->
         </div>
         <div class="testi-content swiper-wrapper">
           <div class="slide swiper-slide">
-            <img src="img1.jpg" alt="" class="image" />
+            <img src="images/img1.jpg" alt="" class="image" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
               saepe provident dolorem a quaerat quo error facere nihil deleniti
@@ -240,7 +238,7 @@ Generated from: https://SmolCSS.dev/#smol-card-component -->
             </div>
           </div>
           <div class="slide swiper-slide">
-            <img src="img2.jpg" alt="" class="image" />
+            <img src="images/img2.jpg" alt="" class="image" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
               saepe provident dolorem a quaerat quo error facere nihil deleniti
@@ -256,7 +254,7 @@ Generated from: https://SmolCSS.dev/#smol-card-component -->
             </div>
           </div>
           <div class="slide swiper-slide">
-            <img src="img3.jpg" alt="" class="image" />
+            <img src="images/img3.jpg" alt="" class="image" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
               saepe provident dolorem a quaerat quo error facere nihil deleniti
@@ -286,7 +284,7 @@ Generated from: https://SmolCSS.dev/#smol-card-component -->
                 <form action="mailto:francyayele@gmail.com" method="POST" >
                     <input type="text" placeholder="Your name"required>
                     <input type="email" name="" id="" placeholder="Email Address"required>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Project Description"required></textarea>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Comment..."required></textarea>
                     <input type="submit" name="" value="Send" class="send-btn" >
                     
                 </form>
@@ -308,14 +306,13 @@ Generated from: https://SmolCSS.dev/#smol-card-component -->
                 <li class="list-inline-item"><a href="#about">About</a></li>
                 <li class="list-inline-item"><a href="#skills">skills</a></li>
                 <li class="list-inline-item"><a href="#projects">Projects</a></li>
-                    <li class="list-inline-item"><a href="#testimonials">Testimonials</a></li>
-                    <li class="list-inline-item"><a href="#contact">Contact</a></li>
+                <li class="list-inline-item"><a href="#testimonials">Testimonials</a></li>
+                <li class="list-inline-item"><a href="#contact">Contact</a></li>
             </ul>
             <p class="copyright">Fransi Ayele © 2023</p>
         </footer>
     </div>
-    
-    
+
  
 	<script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
@@ -457,7 +454,7 @@ $(".a .bar").circleProgress({
 });
 $(".b .bar").circleProgress({
   value: 0.75,
-});
+}); 
 
 $(".c .bar").circleProgress({
   value: 0.8,
@@ -500,4 +497,6 @@ $('.counter').each(function() {
 });
     
    </script>
+
+
 
